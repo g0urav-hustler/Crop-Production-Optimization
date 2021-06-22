@@ -1,0 +1,99 @@
+body{
+    background-image: url("bg_image.jpg");
+    /* background: rgba(0,0,0, 0.2); */
+    background-repeat: no-repeat;
+    height: fit-content;
+    background-size: 100% 100%;
+  }
+
+.head{
+    height: 70px;
+    text-align: center;
+    background-color: #ffffff;
+    color: rgb(60, 129, 255);
+    background-attachment: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    width: 18rem;     
+}
+.col-sm-6{
+    align-self: center;
+}
+
+.output{
+    background-color: aqua;
+}
+.footer{
+   text-align: center;
+   color: aliceblue;
+  
+   background-color: rgb(46, 46, 46);
+}
+
+.logo{
+    width: 3rem;
+    margin-right: 1rem;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+.card-body{
+    text-align: center;
+}
+.highlight{
+    background:rgb(60, 129, 255,0.6);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin: 0em;
+}
+/* .suggestions{
+    background-color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    height: auto;
+} */
+.footer p{
+    margin-bottom: unset;    
+}
+.link{
+    color: #fff;
+    font-size: 30px;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* .dist{
+    margin-bottom: 4rem;
+} */
+@media screen and (max-width: 1000px){
+    .card{
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+}
+@media screen and (max-width: 770px){
+    .card{
+        margin-right: 1rem;
+        margin-left: 1rem;
+    }
+}
+@media screen and (max-width: 400px){
+    .logo{
+        width: 2rem;}
+    .head h1{
+        font-size: 2rem;        
+    }
+    .highlight{
+        font-size: 1.5rem;
+    }
+}
