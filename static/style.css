@@ -14,8 +14,7 @@ body{
     background-attachment: inherit;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 .card{
     width: 18rem;     
