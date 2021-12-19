@@ -53,7 +53,7 @@ $ cd [your-project-folder]
 ```
 Clone the repo in your exiting project folder
 ```
-$ git clone https://github.com/g0urav-hustler/Resumer-Name-Extractor.git
+$ git clone https://github.com/g0urav-hustler/Crop-Production-Optimization.git
 ```
 Making virual environment 
 ```
@@ -78,6 +78,7 @@ The app has deploy on heroku platform using a docker container.
 Pre-requisite: Docker and Heroku intalled on your computer.
 
 To install Docker, see [Reference](https://runnable.com/docker/getting-started/)
+
 To install Heroku see [Reference](https://devcenter.heroku.com/articles/heroku-cli)
 
 Docker command to build the docker container
@@ -115,7 +116,7 @@ $ heroku container:release web -a [your-app-name]
 
 ----------------------------
 ## Repository Overview
-
+```
 ├── data
 │   └──agricultural_data.csv
 ├── models
@@ -132,6 +133,31 @@ $ heroku container:release web -a [your-app-name]
 ├── README.md
 ├── app.py
 └── requirements.txt
+```
+
+----------------------------
+## License
+MIT License
+
+Copyright (c) 2021 Gourav Chouhan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ----------------------------
 ### If you like this repo and it is useful, please don't forget to give a ⭐.
