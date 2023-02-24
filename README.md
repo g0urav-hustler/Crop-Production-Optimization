@@ -1,5 +1,7 @@
 <h1 align="center" > Crop Production Optimization</h1>
-<b> REST API - </b> [Crop-Production-Optimization-api](https://48r4nqrd1l.execute-api.us-east-1.amazonaws.com/Crop-production-api/predict_func)
+
+
+**REST API -** https://48r4nqrd1l.execute-api.us-east-1.amazonaws.com/Crop-production-api/predict_func
 
 ## Overview
 #### It is a website which predict the best crop to be grown on the field under different soil and climatic conditions. 
