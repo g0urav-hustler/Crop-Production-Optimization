@@ -1,8 +1,5 @@
-
-
-
 <h1 align="center" > Crop Production Optimization</h1>
-
+<b> REST API - </b> https://48r4nqrd1l.execute-api.us-east-1.amazonaws.com/Crop-production-api
 
 ## Overview
 #### It is a website which predict the best crop to be grown on the field under different soil and climatic conditions. 
@@ -17,6 +14,24 @@ But they don't know which crop has to grown in their fields according to it's so
 ----------------------------
 ## Goal 
 To make a Machine Learning model that predicts best crops to be grown under different soil and climatic condition.
+
+----------------------------
+## How to use the Api
+To use the api go to [Postman](https://www.postman.com/)
+
+To get the data from the api select the post method and send data as follows:
+```
+{
+    "nitrogen": any int value,
+    "phosphorus": any int value,
+    "potassium": any int value,
+    "temperature": any int value,
+    "humidity": any int value,
+    "ph": any int value,
+    "rainfall": any int value
+}
+```
+<b>Result</b> - You will get the best crop name.
 
 ----------------------------
 ## Technical Aspects
